@@ -5,8 +5,9 @@ services:
     build: .
     container_name: mywebsite
     ports:
-      - "8080:80"          # Map container port 80 to host port 8080
+      - "80:80"          # Map container port 80 to host port 80
     volumes:
       - .:/usr/share/nginx/html:ro   # Mount local files as read-only
     restart: unless-stopped
+
 
