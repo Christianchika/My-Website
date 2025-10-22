@@ -10,3 +10,7 @@ services:
       - .:/usr/share/nginx/html:ro   # Mount local files as read-only
     restart: unless-stopped
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 44598902913082a84c3d3db852a5d54ed2454d99
